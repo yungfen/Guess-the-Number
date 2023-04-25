@@ -1,0 +1,12 @@
+package com.example.Myapp;
+
+import java.util.Random;
+public class mainGame {
+	public static void main(String []arg) {
+		Random random = new Random();
+
+		int x = random.nextInt(4);
+
+		System.out.println(x);
+	}
+}
